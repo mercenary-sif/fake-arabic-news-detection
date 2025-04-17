@@ -1,0 +1,35 @@
+.analytics-chart-container {
+    background-color: #e6f0ff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .chart-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .recharts-cartesian-axis-tick {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .recharts-tooltip-item {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .recharts-legend-item {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+  }
+  

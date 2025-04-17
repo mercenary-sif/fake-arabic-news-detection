@@ -1,0 +1,98 @@
+.fake_news_detection__WhyTrustOurTool {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 4rem;
+    overflow: hidden;
+}
+
+.fake_news_detection__WhyTrustOurTool.animate .fake_news_detection__WhyTrustOurTool-title,
+.fake_news_detection__WhyTrustOurTool.animate .fake_news_detection__WhyTrustOurTool-content > * {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fake_news_detection__WhyTrustOurTool-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    width: 60%;
+    gap: 2px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fake_news_detection__WhyTrustOurTool-content > * {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    flex: 1 1 230px;
+    max-width: 300px;
+}
+
+/* Staggered delays */
+.fake_news_detection__WhyTrustOurTool.animate .fake_news_detection__WhyTrustOurTool-content > *:nth-child(1) { transition-delay: 0.5s; }
+.fake_news_detection__WhyTrustOurTool.animate .fake_news_detection__WhyTrustOurTool-content > *:nth-child(2) { transition-delay: 0.7s; }
+.fake_news_detection__WhyTrustOurTool.animate .fake_news_detection__WhyTrustOurTool-content > *:nth-child(3) { transition-delay: 0.9s; }
+.fake_news_detection__WhyTrustOurTool.animate .fake_news_detection__WhyTrustOurTool-content > *:nth-child(4) { transition-delay: 1.2s; }
+.fake_news_detection__WhyTrustOurTool-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    width: 60%;
+    gap: 2px;
+  
+}
+.fake_news_detection__WhyTrustOurTool-title h1{
+    color: var(--color-blog);
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.1rem;
+    font-family: var(--font-4);
+}
+.fake_news_detection__WhyTrustOurTool-title h3{
+    font-size: 20px;
+    color: #dfd6d0;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: var(--font-4);
+}
+.fake_news_detection__WhyTrustOurTool-title h3 span{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.fake_news_detection__WhyTrustOurTool-title h3 span:hover{
+   transform: scale(1.05);
+   font-weight: 500;
+   color: var(--color-blog);
+   text-shadow: 0px 2px 6px rgba(0, 198, 255, 0.6), 
+   0px 4px 12px rgba(0, 198, 255, 0.3);
+}
+.fake_news_detection__WhyTrustOurTool-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+@media screen and (max-width : 950px){
+    .fake_news_detection__WhyTrustOurTool-title{
+        width: 100%;
+    }
+}
+@media screen and (max-width : 850px){
+    .fake_news_detection__WhyTrustOurTool-title h1{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .fake_news_detection__WhyTrustOurTool-title h3{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

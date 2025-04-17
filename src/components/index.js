@@ -1,0 +1,17 @@
+export {default as Navbar} from './navBar/NavBar';
+export {default as Feature} from './feature/Feature';
+export {default as Card} from './Card/Card'
+export {default as Login} from './auth/SingIn'
+export {default as VerifyLogo} from './Logo/Logo'
+export {default as NewsInput} from './NewsInput/NewsInput'
+export {default as CTA} from './cta/CTA'
+export {default as SectionAnimation} from './Animation/AnimationSection'
+export {default as Result} from './Results/Results.jsx'
+export {default as PredictionIcon} from './PredictionIcon/PredictionIcon.jsx'
+export {default as A_Card} from './Card/AnalysisCard.jsx'
+export {default as ConfidenceCircle} from './Confidence/ConfidenceCircle.jsx'
+export {default as N_Bubbles} from './NERBubbles/NERBubbles.jsx'
+export {default as P_Chart} from './analysis/POSChart.jsx'
+export {default as Subjectivity} from './analysis/SubjectivityBar.jsx'
+export {default as Error_Messege} from './messege/Messege.jsx'
+export {default as CrossValidate} from './cross_validate/CrossValidate.jsx'

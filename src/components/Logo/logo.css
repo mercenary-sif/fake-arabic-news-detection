@@ -1,0 +1,58 @@
+.fake_news_detection-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.fake_news_detection-logo-name{
+    display: flex;
+    margin-left: -1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fake_news_detection-logo-name h3{
+    color: var(--color-blog);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 15px;
+    font-family: var(--font-4);
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+}
+.fake_news_detection-logo-name p{
+    color: #fff;
+    font-family: var(--font-4);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 4px;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+.fake_news_detection-logo img{
+    width: 70%;
+    height: 90px ;
+    transform: rotate(-2deg);
+    
+}
+
+@media screen and (max-width : 950px){
+ 
+    .fake_news_detection-logo-name{
+        margin-left: -0.5rem;
+    }
+}
+
+
+@media screen and (max-width : 850px){
+  
+   
+ 
+}
+@media screen and (max-width : 700px){
+    .fake_news_detection-logo img{
+        
+        width: 75% ;
+    }
+}

@@ -1,0 +1,82 @@
+.fake_news_detection__verify{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+   
+}
+/*
+.fake_news_detection__verify-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    mask-image: linear-gradient(to right top , transparent , black 70% );
+    -webkit-mask-image: linear-gradient(to right top , transparent , black 70% );
+}
+.fake_news_detection__verify-cover::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    background-image: linear-gradient(to right bottom , rgba(0,0,0,0.7), rgba(0,0,0,0.6), rgba(0,0,0,0.5)
+    , rgba(0,0,0,0.4),rgba(0,0,0,0.3), rgba(0,0,0,0 ));
+}
+.fake_news_detection__verify-cover img{
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;  
+}
+**/
+.fake_news_detection__verify-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.fake_news_detection__verify-heading h1{
+    color: #dfd6d0;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.1rem;
+    font-family: var(--font-4);
+}
+.fake_news_detection__verify-heading h1  span{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.fake_news_detection__verify-heading h1  span:hover{
+   transform: scale(1.05);
+   font-weight: 400;
+   color: var(--color-blog);
+   text-shadow: 0px 2px 6px rgba(0, 198, 255, 0.6), 
+   0px 4px 12px rgba(0, 198, 255, 0.3);
+}
+.fake_news_detection__verify-heading h3{
+    font-size: 20px;
+    color: var(--color-blog);
+    font-weight: 400;
+    line-height: 28px;
+    font-family: var(--font-4);
+}
+.fake_news_detection__verify-heading p{
+    color: #c5d7e7;
+    font-size: 16px;
+    line-height: 25px;
+}
+.fake_news_detection__verify-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}

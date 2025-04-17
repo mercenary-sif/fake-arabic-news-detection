@@ -1,0 +1,154 @@
+.fake_news_detection_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(12, 1, 21, 1) 0%, rgba(28, 18, 181, 1) 45%, rgba(9, 51, 84, 1) 81%);
+    background: linear-gradient(135deg,rgb(61, 61, 75) 45%, #3f4c52 ,  rgb(19, 31, 41) 81%);
+}
+
+
+.fake_news_detection_footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: left;
+    background-color: var(--color-11);
+    padding: 1rem 2rem;
+    width: 100%;
+}
+.fake_news_detection_footer-links div{
+    width: 250px;
+    margin: 1rem;
+}
+.fake_news_detection_footer-links_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fake_news_detection_footer-links_logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+.fake_news_detection_footer-links_logo-container .fake_news_detection-logo{
+    width: 120px;
+}
+.fake_news_detection_footer-links_logo-container .fake_news_detection-logo-name{
+   margin-left: -0.7rem;
+}
+.fake_news_detection_footer-links_logo-container .fake_news_detection-logo-name h3{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 5px;
+}
+.fake_news_detection_footer-links_logo-container .fake_news_detection-logo-name p{
+    font-size: 12px;
+    line-height: 4px;
+}
+.fake_news_detection_footer-links_logo-container .fake_news_detection-logo img{
+    width: 65px;
+    height: 65px ;
+    transform: rotate(-2deg);
+    
+}
+.fake_news_detection_footer-links_logo p{
+    font-size: 16px;
+    font-family: var(--font-4);
+    font-weight: normal;
+    text-align: start;
+    line-height: 25px;
+    color: #ffffff;
+}
+.fake_news_detection_footer-links_logo-container p{
+    font-size: 22px;
+    margin-top: 1rem;
+    line-height: 15px;
+    font-family: var(--font-5);
+    font-weight: 500;
+}
+.fake_news_detection_footer-links_logo-socialmedia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.fake_news_detection_footer-links_logo-socialmedia svg {
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid #b8ada7;
+    color: #b6b2af;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.fake_news_detection_footer-links_logo-socialmedia svg:hover {
+    color: var(--color-blog);
+    border-color: var(--color-blog);
+    cursor: pointer;
+}
+.fake_news_detection_footer-links_logo_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: var(--font-5);
+}
+.fake_news_detection_footer-links_logo_div h4{
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-bottom: 1rem;    
+}
+.fake_news_detection_footer-links_logo_div p{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    line-height: 16px;
+    color: #ffffff;
+    margin: 0.5rem 0;   
+    cursor: pointer; 
+}
+.fake_news_detection_footer-links_logo_div p svg{
+   fill: var(--color-blog);
+}
+.fake_news_detection_footer-links_logo_div p span,
+.fake_news_detection_footer-copyright p span{
+    color: var(--color-blog);
+}
+.fake_news_detection_footer-copyright{
+    margin-top: 1rem;
+    text-align: center;
+    padding: 2rem;
+    font-family: var(--font-5);
+
+}
+.fake_news_detection_footer-copyright p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff  ;
+}
+@media screen and (max-width : 850px){
+   
+}
+@media screen and (max-width : 600px){
+    .fake_news_detection_footer-links_logo-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+      .fake_news_detection_footer-links_logo{
+        align-items: start;
+        justify-content: flex-start;
+      }
+      .fake_news_detection_footer-links_logo p{
+        text-align: start;
+      }
+}

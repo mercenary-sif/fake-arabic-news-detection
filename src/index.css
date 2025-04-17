@@ -1,0 +1,34 @@
+:root{
+  --font-1: "Poppins", sans-serif;
+  --font-2: "Sour Gummy", sans-serif;
+  --font-3:"Manrope", sans-serif;
+  --font-4:"Winky Sans", sans-serif;
+  --font-5: "Mukta", sans-serif;
+  --font-6: "Katibeh", serif;
+  --font-7: "Scheherazade New", serif;
+  --font-8: "Amiri", serif;
+  --color-bg:  linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(62, 63, 63, 1) 53%, rgba(11, 18, 36, 1) 100%);
+  --color-footer: #082444;
+    --color-blog: #81dadd;
+    --color-subtext: #ff71d4;
+    --gradient-text:  linear-gradient(90deg, rgba(2, 193, 255, 1) 0%, rgba(4, 205, 145, 1) 51%, rgb(238, 93, 9) 98%);
+   --f-gradient: linear-gradient(135deg, #6a00f4, #00eaff);
+  
+   /*
+      --color-background: #ffffff; 
+      --color-text: #111111;       
+      --color-accent: #000000;    
+      --color-hover: #333333;      
+      --color-light-gray: #f5f5f5; 
+      --color-blog: #000000;  
+   */
+ 
+  }
+body{
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,43 @@
+.fake_news_detection__card{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.fake_news_detection__card-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #575351;
+}
+
+.fake_news_detection__card-icons svg{
+    height: 45px;
+    width: 45px;
+    color: #dfd6d0;
+}
+.fake_news_detection__card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 75%;
+}
+.fake_news_detection__card-content h3{
+    font-size: 20px;
+    color: #dfd6d0;
+    font-weight: 500;
+    line-height: 28px;
+}
+.fake_news_detection__card-content p{
+    font-size: 16px;
+    color: var(--color-blog);
+    font-weight: 300;
+    line-height: 24px;
+}

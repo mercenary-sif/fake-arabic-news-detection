@@ -1,0 +1,20 @@
+.ner-chart-container {
+  width: 100%; /* Adjust width as needed */
+  height: 460px;     /* Adjust height as needed */
+  background-color: #e6f0ff; /* Soft background */
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  font-family: 'Poppins', sans-serif;
+}
+
+.ner-chart-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+}
+.ner-chart-legend {
+  margin-top: 24px; 
+  background-color: #333;
+  text-align: center;
+}
