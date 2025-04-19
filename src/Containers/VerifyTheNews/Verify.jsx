@@ -20,7 +20,7 @@ const Verify = ({showResult}) => {
          <p>Enter a news article, let AI analyze it, and receive a detailed breakdown—credibility, sentiment, key entities, and linguistic patterns.</p>
       </div>
       <div className="fake_news_detection__verify-container">
-        <NewsInput isloading={(L)=>setIsLoading(!L)} cancel={handlError} rasult={showResult} />
+        <NewsInput isloading={(L)=>setIsLoading(!L)} cancel={handlError} result={showResult} />
       </div>
       
     </div>

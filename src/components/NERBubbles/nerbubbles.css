@@ -18,3 +18,12 @@
   background-color: #333;
   text-align: center;
 }
+
+.ner-chart-no-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 16px;
+  color: #666;
+}

@@ -12,7 +12,7 @@ import {
           text={`${confidence}%`}
           strokeWidth={15} 
           styles={buildStyles({
-            pathColor: confidence > 70 ? '#00c853' : confidence > 40 ? '#ff9800' : '#d32f2f',
+            pathColor: confidence > 70 ? '#0077b6' : confidence > 40 ? '#ff9800' : '#d32f2f',
             textColor: '#dfd6d0',
             trailColor: '#dfd6d0',
             strokeLinecap: 'round',

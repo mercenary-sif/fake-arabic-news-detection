@@ -24,9 +24,9 @@ const Home = () => {
       section.scrollIntoView({ behavior: 'smooth' });
     }
   };
-  function show_the_result (r , article){
+  function show_the_result (data , article){
      setArticle(article)
-     setResponsData(r);
+     setResponsData(data);
      setResult(true);setTimeout(() => scrollToSection('verify-now'), 50);
   }
   return (
